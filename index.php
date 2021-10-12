@@ -16,11 +16,11 @@
 
             <div class="form-control">
                 <label for="">Username</label>
-                <input type="text" name="username" id="" autocomplete="off" require>
+                <input type="text" name="username" id="user" autocomplete="off" require>
             </div>
             <div class="form-control">
                 <label for="">Password</label>
-                <input type="password" name="password" id="" autocomplete="off" require>
+                <input type="password" name="password" id="pass" autocomplete="off" require>
             </div>
             <div class="form-link">
                 <p>Don't have account? <a href="#">Sign In</a></p>
