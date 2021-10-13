@@ -13,6 +13,7 @@
 
         if (mysqli_num_rows($query) > 0) {
             
+            $_SESSION['user'] = 'user';
             header("location: dashboard.php");
         }else{
             header("location: index.php?message=error-log");
