@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Manjari;
+}
+body{
+    background: url('assets/wp.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.box{
+    width: 35%;
+    height: 350px;
+    border: 1px solid black;
+    position: absolute;
+    top: 100px;
+    background: rgba(186, 189, 183, 0.582);
+    left: 30%;
+}
+.box h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(243, 235, 235);
+}
+.alert{
+    text-align: center;
+    background: rgb(204, 66, 66);
+    border: 1px solid rgb(139, 11, 11);
+    width: 80%;
+    height: 5vh;
+    margin: auto;
+    margin-bottom: 20px;
+    display: block;
+}
+.alert p{
+    line-height: 35px;
+    color: rgb(97, 20, 20);
+}
+.form-control{
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 25px;
+}
+.form-control label{
+    margin-left: 40px;
+    font-size: 18px;
+    color: rgb(243, 235, 235);
+}
+.form-control input{
+    width: 60%;
+    height: 5vh;
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: 18px;
+    padding-left: 5px;
+    outline: none;
+}
+.form-link{
+    margin: 20px 0px;
+    text-align: center;
+}
+.form-link a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.form-btn{
+    width: 100%;
+    height: 6vh;
+}
+.form-btn button{
+    width: 60%;
+    height: 6vh;
+    margin: auto;
+    display: block;
+    background-color: rgb(27, 26, 26);
+    border: none;
+    outline: none;
+    color: rgb(243, 235, 235);
+    cursor: pointer;
+}
+.form-btn button:hover{
+    background-color: rgb(243, 235, 235);
+    color: rgb(27, 26, 26);
+    transition: 0.5s ease-in;
+}
+.title-dash{
+    font-size: 35px;
+    margin-top: 40px;
+    text-align: center;
+    color: red;
+}
+.link-dash{
+    text-align: right;
+    margin-right: 20px;
+}
+.link-dash a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.table{
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    border-collapse: collapse;
+    color: aliceblue;
+}
+.table thead th {
+    width: 10%;
+    height: 6vh;
+    margin: 0;
+    color: rgb(100, 96, 96);
+    background: aliceblue;
+}

@@ -13,10 +13,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aplikasi Profil</title>
-    <link rel="stylesheet" href="snap.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+   
     <div class="box">
 
         <h1>Login</h1>
