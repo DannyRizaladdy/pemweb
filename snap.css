@@ -3,6 +3,10 @@
     padding: 0;
     font-family: Manjari;
 }
+a{
+    text-decoration: none;
+    color: rgb(243, 235, 235);
+}
 body{
     background: url('assets/wp.jpeg');
     background-size: cover;
@@ -87,4 +91,44 @@ body{
     background-color: rgb(243, 235, 235);
     color: rgb(27, 26, 26);
     transition: 0.5s ease-in;
+}
+.title-dash{
+    font-size: 35px;
+    margin-top: 40px;
+    text-align: center;
+    color: red;
+}
+.link-dash{
+    text-align: right;
+    margin-right: 20px;
+}
+.link-dash a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.table{
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    border-collapse: collapse;
+    color: aliceblue;
+    border: 1px solid black;
+}
+.table thead th {
+    width: 10%;
+    height: 6vh;
+    margin: 0;
+    color: rgb(100, 96, 96);
+    background: aliceblue;
+}
+.table tfoot th {
+    width: 10%;
+    height: 6vh;
+    margin: 0;
+    color: rgb(100, 96, 96);
+    background: aliceblue;
+}
+.table tbody tr{
+    height: 10vh;
 }

@@ -14,7 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="snap.css">
 </head>
 <body>
     
@@ -35,6 +35,7 @@
                 <th>No hp</th>
                 <th>Email</th>
                 <th>Orang Tua</th>
+                <th>Action</th>
             </thead>
             <tfoot>
                 <th>NO</th>
@@ -45,6 +46,7 @@
                 <th>No hp</th>
                 <th>Email</th>
                 <th>Orang Tua</th>
+                <th>Action</th>
             </tfoot>
             <tbody>
                 <?php
@@ -54,9 +56,9 @@
                     $sql = "select * from tbl_mhs";
                     $query = mysqli_query($conn,$sql);
 
-                    while($res = mysqli_fetch_array($query) > 0){
+                    while($res = mysqli_fetch_array($query)){
                 ?>
-                    <tr>
+                    <tr align="center">
                         <td><?=$no++ ?></td>
                         <td><?=$res['nama'] ?></td>
                         <td><?=$res['alamat'] ?></td>
@@ -65,6 +67,7 @@
                         <td><?=$res['no_hp'] ?></td>
                         <td><?=$res['email'] ?></td>
                         <td><?=$res['nama_ortu'] ?></td>
+                        <td><a href="">Edit</a> / <br><a href="">Delete</a></td>
                     </tr>
                 <?php    
                     }
